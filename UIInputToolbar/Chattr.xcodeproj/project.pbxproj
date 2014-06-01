@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24007DAA18546894000536E0 /* Chattr.png in Resources */ = {isa = PBXBuildFile; fileRef = 24007DA918546894000536E0 /* Chattr.png */; };
+		24007DAD18546AB2000536E0 /* ChattrLoadScreen5s.png in Resources */ = {isa = PBXBuildFile; fileRef = 24007DAB18546AB2000536E0 /* ChattrLoadScreen5s.png */; };
+		24007DAE18546AB2000536E0 /* ChattrLoadScreen4s.png in Resources */ = {isa = PBXBuildFile; fileRef = 24007DAC18546AB2000536E0 /* ChattrLoadScreen4s.png */; };
+		240762AD17F55184001B4589 /* NPMConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = 240762AC17F55184001B4589 /* NPMConversation.m */; };
+		244B6D5717FA994E00F6B0B7 /* UINavigationController+SGProgress.h in Resources */ = {isa = PBXBuildFile; fileRef = 244B6D5517FA994E00F6B0B7 /* UINavigationController+SGProgress.h */; };
+		244B6D5817FA994E00F6B0B7 /* UINavigationController+SGProgress.m in Resources */ = {isa = PBXBuildFile; fileRef = 244B6D5617FA994E00F6B0B7 /* UINavigationController+SGProgress.m */; };
+		245A2FCD183C5D9E00E212EA /* NPMMessageBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 245A2FCC183C5D9E00E212EA /* NPMMessageBarView.m */; };
+		245A2FD5183C9E6D00E212EA /* BHExpandingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 245A2FD0183C9E6D00E212EA /* BHExpandingTextView.m */; };
+		245A2FD6183C9E6D00E212EA /* BHExpandingTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 245A2FD2183C9E6D00E212EA /* BHExpandingTextViewInternal.m */; };
+		245A2FD7183C9E6D00E212EA /* BHInputToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 245A2FD4183C9E6D00E212EA /* BHInputToolbar.m */; };
+		245F3F9F17EA8B6F003D6D9F /* NPMLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 245F3F9E17EA8B6F003D6D9F /* NPMLoginVC.m */; };
+		245F3FA917EA8DD9003D6D9F /* NPMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 245F3FA817EA8DD9003D6D9F /* NPMUser.m */; };
+		245F3FAC17EA8F28003D6D9F /* NPMBackendTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 245F3FAB17EA8F28003D6D9F /* NPMBackendTools.m */; };
+		2466B5F6184071EA001C3604 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2466B5F5184071EA001C3604 /* CFNetwork.framework */; };
+		2466B5F81840720B001C3604 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2466B5F71840720B001C3604 /* libz.1.1.3.dylib */; };
+		2466B5FA18407216001C3604 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2466B5F918407216001C3604 /* MobileCoreServices.framework */; };
+		2466B5FC1840721E001C3604 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2466B5FB1840721E001C3604 /* QuartzCore.framework */; };
+		2466B5FE18407226001C3604 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2466B5FD18407226001C3604 /* Security.framework */; };
+		2466B6021840723F001C3604 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2466B6011840723F001C3604 /* SystemConfiguration.framework */; };
+		2466B6041840724B001C3604 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2466B6031840724B001C3604 /* AudioToolbox.framework */; };
+		24A4673117EEBEFE00E44C57 /* NPMConvVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4673017EEBEFD00E44C57 /* NPMConvVC.m */; };
+		24A4673417EEBF3400E44C57 /* NPMMessagesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4673317EEBF3400E44C57 /* NPMMessagesTVC.m */; };
+		24A4673C17EECF0E00E44C57 /* NPMMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4673B17EECF0E00E44C57 /* NPMMessageCell.m */; };
+		24A4674017EECFB500E44C57 /* NPMMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A4673F17EECFB500E44C57 /* NPMMessage.m */; };
+		24B6344117E7F87C00ECD836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B6344017E7F87C00ECD836 /* Foundation.framework */; };
+		24B6344317E7F87C00ECD836 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B6344217E7F87C00ECD836 /* CoreGraphics.framework */; };
+		24B6344517E7F87C00ECD836 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B6344417E7F87C00ECD836 /* UIKit.framework */; };
+		24B6344B17E7F87C00ECD836 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24B6344917E7F87C00ECD836 /* InfoPlist.strings */; };
+		24B6344D17E7F87C00ECD836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6344C17E7F87C00ECD836 /* main.m */; };
+		24B6345117E7F87C00ECD836 /* NPMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6345017E7F87C00ECD836 /* NPMAppDelegate.m */; };
+		24B6345417E7F87C00ECD836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B6345217E7F87C00ECD836 /* Main.storyboard */; };
+		24B6345917E7F87C00ECD836 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B6345817E7F87C00ECD836 /* Images.xcassets */; };
+		24B6346017E7F87C00ECD836 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B6345F17E7F87C00ECD836 /* XCTest.framework */; };
+		24B6346117E7F87C00ECD836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B6344017E7F87C00ECD836 /* Foundation.framework */; };
+		24B6346217E7F87C00ECD836 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B6344417E7F87C00ECD836 /* UIKit.framework */; };
+		24B6346A17E7F87C00ECD836 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24B6346817E7F87C00ECD836 /* InfoPlist.strings */; };
+		24B6346C17E7F87C00ECD836 /* ChattrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6346B17E7F87C00ECD836 /* ChattrTests.m */; };
+		24B6348017E81F6E00ECD836 /* NPMChatsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B6347F17E81F6E00ECD836 /* NPMChatsTVC.m */; };
+		24BE331417F94C6B009FA3C0 /* NPMMessageCellFromMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BE331317F94C6B009FA3C0 /* NPMMessageCellFromMe.m */; };
+		24BE331717F94C78009FA3C0 /* NPMMessageCellFromThem.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BE331617F94C78009FA3C0 /* NPMMessageCellFromThem.m */; };
+		24BE331C17F94F76009FA3C0 /* NPMMessageCellFromMe.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24BE331B17F94F76009FA3C0 /* NPMMessageCellFromMe.xib */; };
+		24BE331E17F94FBC009FA3C0 /* NPMMessageCellFromThem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24BE331D17F94FBC009FA3C0 /* NPMMessageCellFromThem.xib */; };
+		E9AAA0270AE44F91A9E86A60 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9A9910D09641DDBB0AD3C0 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24B6346317E7F87C00ECD836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B6343517E7F87C00ECD836 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24B6343C17E7F87C00ECD836;
+			remoteInfo = Chattr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24007DA918546894000536E0 /* Chattr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chattr.png; sourceTree = "<group>"; };
+		24007DAB18546AB2000536E0 /* ChattrLoadScreen5s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChattrLoadScreen5s.png; sourceTree = "<group>"; };
+		24007DAC18546AB2000536E0 /* ChattrLoadScreen4s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChattrLoadScreen4s.png; sourceTree = "<group>"; };
+		240762AB17F55184001B4589 /* NPMConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMConversation.h; sourceTree = "<group>"; };
+		240762AC17F55184001B4589 /* NPMConversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMConversation.m; sourceTree = "<group>"; };
+		244B6D5517FA994E00F6B0B7 /* UINavigationController+SGProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+SGProgress.h"; path = "../Pods/SGNavigationProgress/SGNavigationProgress/UINavigationController+SGProgress/UINavigationController+SGProgress.h"; sourceTree = "<group>"; };
+		244B6D5617FA994E00F6B0B7 /* UINavigationController+SGProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+SGProgress.m"; path = "../Pods/SGNavigationProgress/SGNavigationProgress/UINavigationController+SGProgress/UINavigationController+SGProgress.m"; sourceTree = "<group>"; };
+		245A2FCB183C5D9E00E212EA /* NPMMessageBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMMessageBarView.h; sourceTree = "<group>"; };
+		245A2FCC183C5D9E00E212EA /* NPMMessageBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMMessageBarView.m; sourceTree = "<group>"; };
+		245A2FCF183C9E6D00E212EA /* BHExpandingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHExpandingTextView.h; sourceTree = "<group>"; };
+		245A2FD0183C9E6D00E212EA /* BHExpandingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHExpandingTextView.m; sourceTree = "<group>"; };
+		245A2FD1183C9E6D00E212EA /* BHExpandingTextViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHExpandingTextViewInternal.h; sourceTree = "<group>"; };
+		245A2FD2183C9E6D00E212EA /* BHExpandingTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHExpandingTextViewInternal.m; sourceTree = "<group>"; };
+		245A2FD3183C9E6D00E212EA /* BHInputToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHInputToolbar.h; sourceTree = "<group>"; };
+		245A2FD4183C9E6D00E212EA /* BHInputToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHInputToolbar.m; sourceTree = "<group>"; };
+		245F3F9E17EA8B6F003D6D9F /* NPMLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMLoginVC.m; sourceTree = "<group>"; };
+		245F3FA217EA8BCA003D6D9F /* NPMLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPMLoginVC.h; sourceTree = "<group>"; };
+		245F3FA717EA8DD9003D6D9F /* NPMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMUser.h; sourceTree = "<group>"; };
+		245F3FA817EA8DD9003D6D9F /* NPMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMUser.m; sourceTree = "<group>"; };
+		245F3FAA17EA8F28003D6D9F /* NPMBackendTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMBackendTools.h; sourceTree = "<group>"; };
+		245F3FAB17EA8F28003D6D9F /* NPMBackendTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMBackendTools.m; sourceTree = "<group>"; };
+		2466B5F5184071EA001C3604 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2466B5F71840720B001C3604 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		2466B5F918407216001C3604 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2466B5FB1840721E001C3604 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2466B5FD18407226001C3604 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2466B6011840723F001C3604 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2466B6031840724B001C3604 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2497061918A5C5CF00766EEE /* Chattr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Chattr.entitlements; sourceTree = "<group>"; };
+		24A4672F17EEBEFD00E44C57 /* NPMConvVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMConvVC.h; sourceTree = "<group>"; };
+		24A4673017EEBEFD00E44C57 /* NPMConvVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMConvVC.m; sourceTree = "<group>"; };
+		24A4673217EEBF3400E44C57 /* NPMMessagesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMMessagesTVC.h; sourceTree = "<group>"; };
+		24A4673317EEBF3400E44C57 /* NPMMessagesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMMessagesTVC.m; sourceTree = "<group>"; };
+		24A4673A17EECF0E00E44C57 /* NPMMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMMessageCell.h; sourceTree = "<group>"; };
+		24A4673B17EECF0E00E44C57 /* NPMMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMMessageCell.m; sourceTree = "<group>"; };
+		24A4673E17EECFB500E44C57 /* NPMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMMessage.h; sourceTree = "<group>"; };
+		24A4673F17EECFB500E44C57 /* NPMMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMMessage.m; sourceTree = "<group>"; };
+		24B6343D17E7F87C00ECD836 /* Chattr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chattr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B6344017E7F87C00ECD836 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24B6344217E7F87C00ECD836 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		24B6344417E7F87C00ECD836 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24B6344817E7F87C00ECD836 /* Chattr-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chattr-Info.plist"; sourceTree = "<group>"; };
+		24B6344A17E7F87C00ECD836 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24B6344C17E7F87C00ECD836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24B6344E17E7F87C00ECD836 /* Chattr-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chattr-Prefix.pch"; sourceTree = "<group>"; };
+		24B6344F17E7F87C00ECD836 /* NPMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPMAppDelegate.h; sourceTree = "<group>"; };
+		24B6345017E7F87C00ECD836 /* NPMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPMAppDelegate.m; sourceTree = "<group>"; };
+		24B6345317E7F87C00ECD836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24B6345817E7F87C00ECD836 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		24B6345E17E7F87C00ECD836 /* ChattrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChattrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B6345F17E7F87C00ECD836 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		24B6346717E7F87C00ECD836 /* ChattrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChattrTests-Info.plist"; sourceTree = "<group>"; };
+		24B6346917E7F87C00ECD836 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		24B6346B17E7F87C00ECD836 /* ChattrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChattrTests.m; sourceTree = "<group>"; };
+		24B6347E17E81F6E00ECD836 /* NPMChatsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMChatsTVC.h; sourceTree = "<group>"; };
+		24B6347F17E81F6E00ECD836 /* NPMChatsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMChatsTVC.m; sourceTree = "<group>"; };
+		24BE331217F94C6B009FA3C0 /* NPMMessageCellFromMe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMMessageCellFromMe.h; sourceTree = "<group>"; };
+		24BE331317F94C6B009FA3C0 /* NPMMessageCellFromMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMMessageCellFromMe.m; sourceTree = "<group>"; };
+		24BE331517F94C78009FA3C0 /* NPMMessageCellFromThem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPMMessageCellFromThem.h; sourceTree = "<group>"; };
+		24BE331617F94C78009FA3C0 /* NPMMessageCellFromThem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPMMessageCellFromThem.m; sourceTree = "<group>"; };
+		24BE331B17F94F76009FA3C0 /* NPMMessageCellFromMe.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPMMessageCellFromMe.xib; sourceTree = "<group>"; };
+		24BE331D17F94FBC009FA3C0 /* NPMMessageCellFromThem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NPMMessageCellFromThem.xib; sourceTree = "<group>"; };
+		3C9A9910D09641DDBB0AD3C0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8E36DC48CA440F99BCCA17 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24B6343A17E7F87C00ECD836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AAA0270AE44F91A9E86A60 /* libPods.a in Frameworks */,
+				2466B6041840724B001C3604 /* AudioToolbox.framework in Frameworks */,
+				2466B6021840723F001C3604 /* SystemConfiguration.framework in Frameworks */,
+				2466B5FE18407226001C3604 /* Security.framework in Frameworks */,
+				2466B5FC1840721E001C3604 /* QuartzCore.framework in Frameworks */,
+				2466B5FA18407216001C3604 /* MobileCoreServices.framework in Frameworks */,
+				2466B5F81840720B001C3604 /* libz.1.1.3.dylib in Frameworks */,
+				24B6344317E7F87C00ECD836 /* CoreGraphics.framework in Frameworks */,
+				2466B5F6184071EA001C3604 /* CFNetwork.framework in Frameworks */,
+				24B6344517E7F87C00ECD836 /* UIKit.framework in Frameworks */,
+				24B6344117E7F87C00ECD836 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B6345B17E7F87C00ECD836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B6346017E7F87C00ECD836 /* XCTest.framework in Frameworks */,
+				24B6346217E7F87C00ECD836 /* UIKit.framework in Frameworks */,
+				24B6346117E7F87C00ECD836 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		245A2FCE183C9E6D00E212EA /* UIInputToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				245A2FCF183C9E6D00E212EA /* BHExpandingTextView.h */,
+				245A2FD0183C9E6D00E212EA /* BHExpandingTextView.m */,
+				245A2FD1183C9E6D00E212EA /* BHExpandingTextViewInternal.h */,
+				245A2FD2183C9E6D00E212EA /* BHExpandingTextViewInternal.m */,
+				245A2FD3183C9E6D00E212EA /* BHInputToolbar.h */,
+				245A2FD4183C9E6D00E212EA /* BHInputToolbar.m */,
+			);
+			path = UIInputToolbar;
+			sourceTree = "<group>";
+		};
+		24A4673D17EECF9300E44C57 /* Datatypes */ = {
+			isa = PBXGroup;
+			children = (
+				245F3FA717EA8DD9003D6D9F /* NPMUser.h */,
+				245F3FA817EA8DD9003D6D9F /* NPMUser.m */,
+				24A4673E17EECFB500E44C57 /* NPMMessage.h */,
+				24A4673F17EECFB500E44C57 /* NPMMessage.m */,
+				240762AB17F55184001B4589 /* NPMConversation.h */,
+				240762AC17F55184001B4589 /* NPMConversation.m */,
+			);
+			name = Datatypes;
+			sourceTree = "<group>";
+		};
+		24B6343417E7F87C00ECD836 = {
+			isa = PBXGroup;
+			children = (
+				24B6344617E7F87C00ECD836 /* Chattr */,
+				24B6346517E7F87C00ECD836 /* ChattrTests */,
+				24B6343F17E7F87C00ECD836 /* Frameworks */,
+				24B6343E17E7F87C00ECD836 /* Products */,
+				245A2FCE183C9E6D00E212EA /* UIInputToolbar */,
+				FA8E36DC48CA440F99BCCA17 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		24B6343E17E7F87C00ECD836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24B6343D17E7F87C00ECD836 /* Chattr.app */,
+				24B6345E17E7F87C00ECD836 /* ChattrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24B6343F17E7F87C00ECD836 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2466B6031840724B001C3604 /* AudioToolbox.framework */,
+				2466B6011840723F001C3604 /* SystemConfiguration.framework */,
+				2466B5FD18407226001C3604 /* Security.framework */,
+				2466B5FB1840721E001C3604 /* QuartzCore.framework */,
+				2466B5F918407216001C3604 /* MobileCoreServices.framework */,
+				2466B5F71840720B001C3604 /* libz.1.1.3.dylib */,
+				2466B5F5184071EA001C3604 /* CFNetwork.framework */,
+				24B6344017E7F87C00ECD836 /* Foundation.framework */,
+				24B6344217E7F87C00ECD836 /* CoreGraphics.framework */,
+				24B6344417E7F87C00ECD836 /* UIKit.framework */,
+				24B6345F17E7F87C00ECD836 /* XCTest.framework */,
+				3C9A9910D09641DDBB0AD3C0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24B6344617E7F87C00ECD836 /* Chattr */ = {
+			isa = PBXGroup;
+			children = (
+				2497061918A5C5CF00766EEE /* Chattr.entitlements */,
+				24B6344F17E7F87C00ECD836 /* NPMAppDelegate.h */,
+				24B6345017E7F87C00ECD836 /* NPMAppDelegate.m */,
+				24BE331917F94CAB009FA3C0 /* User Interface */,
+				24BE331A17F94CEF009FA3C0 /* Obj-C Backend Wrapers  */,
+				24BE330817F77F3D009FA3C0 /* Backend */,
+				24B6344717E7F87C00ECD836 /* Supporting Files */,
+				24B6345817E7F87C00ECD836 /* Images.xcassets */,
+			);
+			path = Chattr;
+			sourceTree = "<group>";
+		};
+		24B6344717E7F87C00ECD836 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24B6344817E7F87C00ECD836 /* Chattr-Info.plist */,
+				24B6344917E7F87C00ECD836 /* InfoPlist.strings */,
+				24007DA918546894000536E0 /* Chattr.png */,
+				24007DAB18546AB2000536E0 /* ChattrLoadScreen5s.png */,
+				24007DAC18546AB2000536E0 /* ChattrLoadScreen4s.png */,
+				24B6344C17E7F87C00ECD836 /* main.m */,
+				24B6344E17E7F87C00ECD836 /* Chattr-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24B6346517E7F87C00ECD836 /* ChattrTests */ = {
+			isa = PBXGroup;
+			children = (
+				24B6346B17E7F87C00ECD836 /* ChattrTests.m */,
+				24B6346617E7F87C00ECD836 /* Supporting Files */,
+			);
+			path = ChattrTests;
+			sourceTree = "<group>";
+		};
+		24B6346617E7F87C00ECD836 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24B6346717E7F87C00ECD836 /* ChattrTests-Info.plist */,
+				24B6346817E7F87C00ECD836 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24BE330717F77F22009FA3C0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24A4673217EEBF3400E44C57 /* NPMMessagesTVC.h */,
+				24A4673317EEBF3400E44C57 /* NPMMessagesTVC.m */,
+				245F3FA217EA8BCA003D6D9F /* NPMLoginVC.h */,
+				245F3F9E17EA8B6F003D6D9F /* NPMLoginVC.m */,
+				24A4672F17EEBEFD00E44C57 /* NPMConvVC.h */,
+				24A4673017EEBEFD00E44C57 /* NPMConvVC.m */,
+				24B6347E17E81F6E00ECD836 /* NPMChatsTVC.h */,
+				24B6347F17E81F6E00ECD836 /* NPMChatsTVC.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		24BE330817F77F3D009FA3C0 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				245F3FAA17EA8F28003D6D9F /* NPMBackendTools.h */,
+				245F3FAB17EA8F28003D6D9F /* NPMBackendTools.m */,
+			);
+			name = Backend;
+			sourceTree = "<group>";
+		};
+		24BE331817F94C8B009FA3C0 /* MessageCells */ = {
+			isa = PBXGroup;
+			children = (
+				24A4673A17EECF0E00E44C57 /* NPMMessageCell.h */,
+				24A4673B17EECF0E00E44C57 /* NPMMessageCell.m */,
+				24BE331B17F94F76009FA3C0 /* NPMMessageCellFromMe.xib */,
+				24BE331217F94C6B009FA3C0 /* NPMMessageCellFromMe.h */,
+				24BE331317F94C6B009FA3C0 /* NPMMessageCellFromMe.m */,
+				24BE331D17F94FBC009FA3C0 /* NPMMessageCellFromThem.xib */,
+				24BE331517F94C78009FA3C0 /* NPMMessageCellFromThem.h */,
+				24BE331617F94C78009FA3C0 /* NPMMessageCellFromThem.m */,
+			);
+			name = MessageCells;
+			sourceTree = "<group>";
+		};
+		24BE331917F94CAB009FA3C0 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				244B6D5517FA994E00F6B0B7 /* UINavigationController+SGProgress.h */,
+				244B6D5617FA994E00F6B0B7 /* UINavigationController+SGProgress.m */,
+				24B6345217E7F87C00ECD836 /* Main.storyboard */,
+				245A2FCB183C5D9E00E212EA /* NPMMessageBarView.h */,
+				245A2FCC183C5D9E00E212EA /* NPMMessageBarView.m */,
+				24BE331817F94C8B009FA3C0 /* MessageCells */,
+				24BE330717F77F22009FA3C0 /* View Controllers */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		24BE331A17F94CEF009FA3C0 /* Obj-C Backend Wrapers  */ = {
+			isa = PBXGroup;
+			children = (
+				24A4673D17EECF9300E44C57 /* Datatypes */,
+			);
+			name = "Obj-C Backend Wrapers ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24B6343C17E7F87C00ECD836 /* Chattr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B6346F17E7F87C00ECD836 /* Build configuration list for PBXNativeTarget "Chattr" */;
+			buildPhases = (
+				33BB1847D40D4E889102A42C /* Check Pods Manifest.lock */,
+				24B6343917E7F87C00ECD836 /* Sources */,
+				24B6343A17E7F87C00ECD836 /* Frameworks */,
+				24B6343B17E7F87C00ECD836 /* Resources */,
+				3F88905D9F4A4F0B86641DDB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chattr;
+			productName = Chattr;
+			productReference = 24B6343D17E7F87C00ECD836 /* Chattr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24B6345D17E7F87C00ECD836 /* ChattrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B6347217E7F87C00ECD836 /* Build configuration list for PBXNativeTarget "ChattrTests" */;
+			buildPhases = (
+				24B6345A17E7F87C00ECD836 /* Sources */,
+				24B6345B17E7F87C00ECD836 /* Frameworks */,
+				24B6345C17E7F87C00ECD836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24B6346417E7F87C00ECD836 /* PBXTargetDependency */,
+			);
+			name = ChattrTests;
+			productName = ChattrTests;
+			productReference = 24B6345E17E7F87C00ECD836 /* ChattrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24B6343517E7F87C00ECD836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NPM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = munson.nick;
+				TargetAttributes = {
+					24B6343C17E7F87C00ECD836 = {
+						DevelopmentTeam = U9LH45GV8Y;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
+					};
+					24B6345D17E7F87C00ECD836 = {
+						TestTargetID = 24B6343C17E7F87C00ECD836;
+					};
+				};
+			};
+			buildConfigurationList = 24B6343817E7F87C00ECD836 /* Build configuration list for PBXProject "Chattr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24B6343417E7F87C00ECD836;
+			productRefGroup = 24B6343E17E7F87C00ECD836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24B6343C17E7F87C00ECD836 /* Chattr */,
+				24B6345D17E7F87C00ECD836 /* ChattrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24B6343B17E7F87C00ECD836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B6345917E7F87C00ECD836 /* Images.xcassets in Resources */,
+				24007DAD18546AB2000536E0 /* ChattrLoadScreen5s.png in Resources */,
+				244B6D5717FA994E00F6B0B7 /* UINavigationController+SGProgress.h in Resources */,
+				24BE331C17F94F76009FA3C0 /* NPMMessageCellFromMe.xib in Resources */,
+				24007DAA18546894000536E0 /* Chattr.png in Resources */,
+				24B6344B17E7F87C00ECD836 /* InfoPlist.strings in Resources */,
+				24BE331E17F94FBC009FA3C0 /* NPMMessageCellFromThem.xib in Resources */,
+				244B6D5817FA994E00F6B0B7 /* UINavigationController+SGProgress.m in Resources */,
+				24007DAE18546AB2000536E0 /* ChattrLoadScreen4s.png in Resources */,
+				24B6345417E7F87C00ECD836 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B6345C17E7F87C00ECD836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B6346A17E7F87C00ECD836 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33BB1847D40D4E889102A42C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F88905D9F4A4F0B86641DDB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24B6343917E7F87C00ECD836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A4673117EEBEFE00E44C57 /* NPMConvVC.m in Sources */,
+				245A2FD5183C9E6D00E212EA /* BHExpandingTextView.m in Sources */,
+				24A4673C17EECF0E00E44C57 /* NPMMessageCell.m in Sources */,
+				245F3FA917EA8DD9003D6D9F /* NPMUser.m in Sources */,
+				245A2FD7183C9E6D00E212EA /* BHInputToolbar.m in Sources */,
+				24BE331717F94C78009FA3C0 /* NPMMessageCellFromThem.m in Sources */,
+				24B6345117E7F87C00ECD836 /* NPMAppDelegate.m in Sources */,
+				245F3F9F17EA8B6F003D6D9F /* NPMLoginVC.m in Sources */,
+				24B6344D17E7F87C00ECD836 /* main.m in Sources */,
+				24BE331417F94C6B009FA3C0 /* NPMMessageCellFromMe.m in Sources */,
+				24A4674017EECFB500E44C57 /* NPMMessage.m in Sources */,
+				245F3FAC17EA8F28003D6D9F /* NPMBackendTools.m in Sources */,
+				24B6348017E81F6E00ECD836 /* NPMChatsTVC.m in Sources */,
+				24A4673417EEBF3400E44C57 /* NPMMessagesTVC.m in Sources */,
+				245A2FD6183C9E6D00E212EA /* BHExpandingTextViewInternal.m in Sources */,
+				245A2FCD183C5D9E00E212EA /* NPMMessageBarView.m in Sources */,
+				240762AD17F55184001B4589 /* NPMConversation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B6345A17E7F87C00ECD836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B6346C17E7F87C00ECD836 /* ChattrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24B6346417E7F87C00ECD836 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24B6343C17E7F87C00ECD836 /* Chattr */;
+			targetProxy = 24B6346317E7F87C00ECD836 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24B6344917E7F87C00ECD836 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24B6344A17E7F87C00ECD836 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		24B6345217E7F87C00ECD836 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24B6345317E7F87C00ECD836 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24B6346817E7F87C00ECD836 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24B6346917E7F87C00ECD836 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24B6346D17E7F87C00ECD836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24B6346E17E7F87C00ECD836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24B6347017E7F87C00ECD836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8E36DC48CA440F99BCCA17 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Chattr/Chattr.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chattr/Chattr-Prefix.pch";
+				INFOPLIST_FILE = "Chattr/Chattr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		24B6347117E7F87C00ECD836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8E36DC48CA440F99BCCA17 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Chattr/Chattr.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chattr/Chattr-Prefix.pch";
+				INFOPLIST_FILE = "Chattr/Chattr-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		24B6347317E7F87C00ECD836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chattr.app/Chattr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chattr/Chattr-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ChattrTests/ChattrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		24B6347417E7F87C00ECD836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chattr.app/Chattr";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chattr/Chattr-Prefix.pch";
+				INFOPLIST_FILE = "ChattrTests/ChattrTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24B6343817E7F87C00ECD836 /* Build configuration list for PBXProject "Chattr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B6346D17E7F87C00ECD836 /* Debug */,
+				24B6346E17E7F87C00ECD836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24B6346F17E7F87C00ECD836 /* Build configuration list for PBXNativeTarget "Chattr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B6347017E7F87C00ECD836 /* Debug */,
+				24B6347117E7F87C00ECD836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24B6347217E7F87C00ECD836 /* Build configuration list for PBXNativeTarget "ChattrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B6347317E7F87C00ECD836 /* Debug */,
+				24B6347417E7F87C00ECD836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24B6343517E7F87C00ECD836 /* Project object */;
+}
