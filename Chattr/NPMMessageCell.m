@@ -29,11 +29,15 @@ int TEXT_PADDING = 7.0;
     return rect.size.height + (2 * TEXT_PADDING);
 }
 
+
+
 - (void)updateTextView {
     self.messageTextView.text = [self.message objectForKey:@"message"];
     self.messageTextView.font = [NPMMessageCell messageTextViewFont];
     self.messageTextView.textContainer.lineFragmentPadding = 0;
     self.messageTextView.textContainerInset = UIEdgeInsetsMake(TEXT_PADDING,TEXT_PADDING,TEXT_PADDING,TEXT_PADDING);
+    CGRect frame = self.messageTextView.frame;
+    self.messageTextView.frame = CGRectMake(frame.origin.x, frame.origin.y, frame.size.width, self.bounds.size.height);
 }
 
 @end

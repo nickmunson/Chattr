@@ -182,8 +182,8 @@ static inline UIViewAnimationOptions animationOptionsWithCurve(UIViewAnimationCu
     UIViewAnimationOptions curve = animationOptionsWithCurve([[[notification userInfo] objectForKey:UIKeyboardAnimationCurveUserInfoKey] integerValue]);
     // compute distance to move
     CGRect endFrame;
-    [[[notification userInfo] objectForKey:UIKeyboardFrameEndUserInfoKey] getValue:&endFrame];
     CGRect beginFrame;
+    [[[notification userInfo] objectForKey:UIKeyboardFrameEndUserInfoKey] getValue:&endFrame];
     [[[notification userInfo] objectForKey:UIKeyboardFrameBeginUserInfoKey] getValue:&beginFrame];
     double heightChange = endFrame.origin.y - beginFrame.origin.y;
     CGPoint newCenter = CGPointMake(self.messageBarView.center.x, self.messageBarView.center.y + heightChange);
@@ -212,7 +212,7 @@ static inline UIViewAnimationOptions animationOptionsWithCurve(UIViewAnimationCu
                      completion:^(BOOL done){
                          CGSize contSize = self.messageTableView.contentSize;
                          CGRect scrollViewBounds = self.messageTableView.bounds;
-                         CGRect frame = CGRectMake(0, contSize.height, scrollViewBounds.size.width, 1);
+                         CGRect frame = CGRectMake(0, contSize.height - 1, scrollViewBounds.size.width, 1);
                          [self.messageTableView scrollRectToVisible:frame animated:YES];
                      }];
 }
